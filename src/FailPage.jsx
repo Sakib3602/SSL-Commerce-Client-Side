@@ -1,6 +1,6 @@
-import React from 'react';
 
-const fail = () => {
+
+const FailPage = () => {
     return (
         <div>
             fail page
@@ -8,4 +8,4 @@ const fail = () => {
     );
 };
 
-export default fail;
+export default FailPage;

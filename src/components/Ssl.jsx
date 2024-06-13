@@ -40,7 +40,8 @@ const Ssl = () => {
 
   return (
     <div>
-      <div className="hero min-h-screen bg-base-200">
+      <h1 className="text-[40px]">PAYMENT NOW !</h1>
+            <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <form onSubmit={hadleSsl} className="card-body">
