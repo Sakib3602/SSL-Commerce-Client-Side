@@ -7,10 +7,11 @@ import "./index.css";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <Ssl></Ssl>,
   },
 ]);
 import "./index.css";
+import Ssl from "./components/Ssl";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
